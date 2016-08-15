@@ -1,0 +1,152 @@
+@import url(http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 12pt;
+  overflow-y: scroll;
+  background: #f5f5f5; }
+
+.navbar-inverse {
+  background-color: #3baee1;
+  border: 0px;
+  -webkit-transition: background-color 0.3s ease-in;
+  -moz-transition: background-color 0.3s ease-in;
+  -ms-transition: background-color 0.3s ease-in;
+  -o-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+  -webkit-transition: padding 0.3s ease-in;
+  -moz-transition: padding 0.3s ease-in;
+  -ms-transition: padding 0.3s ease-in;
+  -o-transition: padding 0.3s ease-in;
+  transition: padding 0.3s ease-in; }
+  .navbar-inverse .navbar-brand {
+    color: #fff; }
+  .navbar-inverse .navbar-toggle {
+    border-color: #f5f5f5; }
+  .navbar-inverse .navbar-toggle:hover {
+    background: #008cba; }
+  .navbar-inverse .navbar-collapse {
+    border: 0px; }
+  .navbar-inverse .navbar-nav li a {
+    color: #fff; }
+  .navbar-inverse .navbar-nav li a:hover {
+    color: #eee; }
+  .navbar-inverse .navbar-nav .active a {
+    background: #008cba;
+    -webkit-transition: background-color 0.3s ease-in;
+    -webkit-transition: background-color 0.3s ease-in;
+    -moz-transition: background-color 0.3s ease-in;
+    -ms-transition: background-color 0.3s ease-in;
+    -o-transition: background-color 0.3s ease-in;
+    transition: background-color 0.3s ease-in;
+    -webkit-transition: padding 0.3s ease-in;
+    -moz-transition: padding 0.3s ease-in;
+    -ms-transition: padding 0.3s ease-in;
+    -o-transition: padding 0.3s ease-in;
+    transition: padding 0.3s ease-in; }
+  .navbar-inverse .navbar-nav .active:hover a {
+    background: #008cba; }
+
+.navbar-transparent {
+  background-color: transparent;
+  padding: 25px 0; }
+  .navbar-transparent .navbar-nav li a:hover {
+    color: #008cba; }
+  .navbar-transparent .navbar-nav .active a {
+    background-color: transparent;
+    color: #008cba; }
+  .navbar-transparent .navbar-nav .active:hover a {
+    background-color: transparent;
+    color: #fff; }
+
+.list-inline .active {
+  color: #23527c;
+  text-decoration: underline; }
+
+#home {
+  background-image: url(../images/bg.jpg);
+  background-position: center center; }
+
+#portfolio {
+  background: #f5f5f5; }
+  #portfolio .thumbnail {
+    background: #f5f5f5;
+    border: 0; }
+    #portfolio .thumbnail .caption {
+      text-align: center; }
+      #portfolio .thumbnail .caption h3 {
+        padding: 0; }
+
+.well, .jumbotron {
+  margin-bottom: 0;
+  padding: 0; }
+  .well h1, .well h2, .well h3, .well h4, .well h5, .well h6, .well p, .jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5, .jumbotron h6, .jumbotron p {
+    padding: 15px 30px; }
+
+.content-home {
+  background: transparent;
+  color: #fff;
+  padding: 60px;
+  margin-top: 3.75rem; }
+
+#me, .content {
+  background: #fff; }
+
+.content-progress h3, .content-progress h4 {
+  padding: 0;
+  margin: 0; }
+.content-progress .row {
+  padding: 25px 0px; }
+
+.content-container {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 1.25rem; }
+
+#contact, .content-social {
+  background: #fff; }
+  #contact .center, .content-social .center {
+    margin: 0 auto; }
+  #contact i, .content-social i {
+    color: #337ab7; }
+
+.blog-content {
+  background: #fff;
+  padding: 15px 30px;
+  margin: 5rem 0 5rem 0; }
+  .blog-content img {
+    height: auto;
+    width: 700px; }
+
+.blog-sidebar {
+  background: #fff;
+  padding: 15px 30px;
+  margin: 5rem 0 5rem 0; }
+
+.progress {
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #d9d9d9; }
+  .progress .progress-bar {
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+footer p {
+  padding: 20px;
+  margin: 0; }
+
+@media (max-width: 767px) {
+  .navbar-transparent {
+    background-color: #008cba;
+    padding: 0; }
+    .navbar-transparent .navbar-nav .active a {
+      background-color: transparent;
+      color: #fff; } }
+
+/*# sourceMappingURL=style.css.map */
